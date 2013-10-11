@@ -1,0 +1,43 @@
+
+
+*  <2013-09-19 Thu>
+** Related OO Abstraction by Van Staden                                :talk:
+    sep. logic  can express disjointedness and sharing
+    build on Matthew Parkinson's logic system
+    correct by construction programs
+    given a verification system, it can give the refinement system
+    t Sat S : term t satisfies spec S
+     Gamma |- e : \tau can be thought of one refinement system where t= e, and spec is gamma and type
+    Refinement calculi u [= u' is apartial order where u satisfier some spec, and u' is a refined
+    version which will also satisfier spec S as u but more...
+    modular verification is important for composibility
+   
+
+** fixed bugs on the server machine with mlton and cm2mlb, took ages, see NOTES in src directory 
+** going over the paper draft
+** fucked up the svn, terrible rm -rf mistake on the old svn directory which was soft linked to the esop on home
+   
+*  <2013-09-26 Thu>
+** modified the paper: additions to the type system and intoduction/organiation of the paper
+** fixed the bug in the code with the foldrStable, the problem was that I didn't know how to pass the proper arguments to the lifting function. 
+** Talk by John Wilkes from Google, he talked about the failures and system wise problems in the Google infrastructure.  :talk:
+
+* <2013-09-27 Fri>
+** DONE finish typing rules
+** DONE finish metatheory
+** DONE pattern typing 
+** DONE replay semanticsx
+** DONE send a draft
+* <2013-10-10 Thu>
+** finished matrix-multiplication experiment, 
+   now changes are only at single cells, propagation occurs after every touch.
+   instead on O(N) complexitiy, I get predicted O(nlogn) complexity
+** worked on fixing gnu plot problems, fitting functionality learned 
+   changing colors, setting function labels with fitted coefficients learned
+** started on transpose experiment
+** DONE zip_cons in Transpose.sml
+** TODO finish transpose example
+*** TODO fix run types for verifier, no need to have paired matrices
+** TODO send Deepak and Umut graphs with matrix_multipl, dot_product, and transpose
+  explain why we're getting the results
+** TODO go over UMut's scanned review
